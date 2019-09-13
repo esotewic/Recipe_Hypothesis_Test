@@ -16,3 +16,18 @@ Recipe data is collected by using BeautifulSoup and MongoDB. It is then converte
 For each hypothesis, I would switch between filtering the recipe tags or ingredients. This involved simple pandas commands. To find my distributions, I would plot the density functions of the parameters I was checking. I noticed there were many outliers in the data so I had to clean the data.
 
 ![png](/cleanvsunclean.png)
+
+#Hypothesis Test
+After plotting the distribution we can see that it is not a normal distribution. Thus I used the U-test for my hypothesis tests. 
+
+Hypothesis Test 1: Trying to lose weight is common in the summer. I chose to look at data with summer and winter tags and compare the fat content. I performed a U-test on my hypothesis
+
+H0: summer fat content is higher than winter.
+H1: winter fat is higher.
+
+P<.02, Reject the null hypothesis (0.000398)
+
+![png](/wintervssummer.png)
+
+#Conclusion
+Although some of the data needed to be wrangled, I believe my hypothesis tests shows that the tags can be a reliable source when determining what kind of meals you want to cook. Whether it is a fatty winter dessert or a healthy summer/vegetarian dish, Epicurious is a great resource for delicious meals.
