@@ -15,4 +15,4 @@ Recipe data is collected by using BeautifulSoup and MongoDB. It is then converte
 #Plotting and Analysis
 For each hypothesis, I would switch between filtering the recipe tags or ingredients. This involved simple pandas commands. To find my distributions, I would plot the density functions of the parameters I was checking. I noticed there were many outliers in the data so I had to clean the data.
 
-![png](/picture1.png)
+![png](/cleanvsunclean.png)
