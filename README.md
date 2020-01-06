@@ -1,5 +1,5 @@
 # Recipe Analysis
-### Eric Wang
+## Eric Wang
 
 ### Background and the Data
 
@@ -7,7 +7,7 @@ Cooking can be fun but challenging. Finding the right recipe is not always easy.
 
 One of the features is the tag function. By tagging recipes, recipe publishers can give a bit more insight into the culture or background of the recipe. I will be analyzing their usage and accuracy.
 
-![png](/picture1.png)
+![png](/pics/cupcakecloud.png)
 
 # Work Flow
 Recipe data is collected by using BeautifulSoup and MongoDB. It is then converted to Pandas Dataframe for EDA. Simple iteration functions were built for this. I then looked through the columns and extracted what I needed. Cleaned nan data where necessary.
@@ -15,7 +15,7 @@ Recipe data is collected by using BeautifulSoup and MongoDB. It is then converte
 # Plotting and Analysis
 For each hypothesis, I would switch between filtering the recipe tags or ingredients. This involved simple pandas commands. To find my distributions, I would plot the density functions of the parameters I was checking. I noticed there were many outliers in the data so I had to clean the data.
 
-![png](/cleanvsunclean.png)
+![png](/pics/cleanvsunclean.png)
 
 # Hypothesis Test
 After plotting the distribution we can see that it is not a normal distribution. Thus I used the U-test for my hypothesis tests.
@@ -27,7 +27,7 @@ H1: winter fat is higher.
 
 P<.02, Reject the null hypothesis (0.000398)
 
-![png](/wintervssummer.png)
+![png](/pics/wintervssummer.png)
 
 # Conclusion
 Although some of the data needed to be wrangled, I believe my hypothesis tests shows that the tags can be a reliable source when determining what kind of meals you want to cook. Whether it is a fatty winter dessert or a healthy summer/vegetarian dish, Epicurious is a great resource for delicious meals.
