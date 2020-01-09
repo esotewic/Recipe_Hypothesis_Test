@@ -1,1 +1,1 @@
-![pdf](/presentation.pdf)
+esotewic.github.io/presentation.pdf
