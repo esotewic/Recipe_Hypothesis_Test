@@ -1,4 +1,4 @@
-<iframe src="https://github.com/esotewic/Recipe_Hypothesis_Test/blob/master/presentation.pdf"></iframe>
+<embed src="https://github.com/esotewic/Recipe_Hypothesis_Test/blob/master/presentation.pdf"/>
 
 <img src="https://github.com/esotewic/Recipe_Hypothesis_Test/blob/master/presentation.pdf">
 
