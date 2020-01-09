@@ -1,1 +1,2 @@
-esotewic.github.io/presentation.pdf
+[embed]/presentation.pdf[/embed]
+ 
