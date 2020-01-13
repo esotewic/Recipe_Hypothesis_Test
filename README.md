@@ -1,7 +1,3 @@
-<embed src="https://github.com/esotewic/Recipe_Hypothesis_Test/blob/master/presentation.pdf" width="800px" height="2100px" />
-
-<img src="https://github.com/esotewic/Recipe_Hypothesis_Test/blob/master/presentation.pdf">
-
 # Recipe Analysis
 ## Eric Wang
 
